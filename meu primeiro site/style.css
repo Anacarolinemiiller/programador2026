@@ -1,0 +1,78 @@
+/* restar a página para evitar margens indesejadas*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*header com flexbox*/
+header{
+    background-color: rgb(84, 31, 145);
+    color: blanchedalmond;
+    padding: 1rem 5%;
+}
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+ color: blue;
+}
+/*seção hero(destaque)*/
+#hero{
+    background-image: url('images\ \(1\).jpg');
+      background-size: cover; /* Ajusta a imagem ao tamanho da tela */
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(152, 164, 177);
+    text-align: center;
+    padding: 20px;
+}
+#hero h1{
+    font-size: 2.5rem;
+    color:lime;
+}
+.btn {
+    padding: 10px 25px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration:  none;
+    color: rgb(206, 113, 6);
+    box-shadow: 2px 2px 7px 3px;
+    font-size:  10px;
+}
+/*sobre*/
+#sobre{
+    padding: 60px 10%;
+    background-color: rgb(11, 252, 252);
+    text-align: center;
+    line-height: 1.6;
+}
+#sobre h2{
+    font-size: 2rem;
+    color: #2c3e50;
+    position: relative;
+    display: inline-block;
+}
+/*footer*/
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(206, 70, 206);
+}

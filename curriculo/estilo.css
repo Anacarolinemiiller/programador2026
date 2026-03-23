@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+section{
+    max-width: 700px;
+    box-shadow: 2px 2px 7px blue;
+    border-radius: 15px;
+    margin: auto;
+    padding: 50px;
+    
+    /*alinhando no centro do card*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(213, 221, 221);
+    margin-bottom: 15px;
+}
+
+body{
+    background-color: rgba(238, 228, 228, 0.425);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbvGEVi65A82YLMi8FDG2ZINhVA3rXtHYIng&s);
+    background-size: cover;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table{
+    border-spacing: 0px;
+    font-size: 12px;width: 100%;
+    text-aligin: center;
+}
+ul{ list-style: none; }
+#redes ul li a{
+    text-decoration: none;
+    color: rgb(18, 4, 44);
+}
+#whatsapp{
+    color: green;
+}
+#facebook{
+    color: rgb(0, 60, 255);
+}
+#instagram{
+    color: red;
+}
+#linkedin{
+    color: cadetblue;
+}
+#whatsapp, #facebook, #instagram, #linkedin{
+    font-size: 25px;
+}
+h3,h2{
+    font-family: "Meow Script";
+}
+.menu{
+    background-color:rgb(96, 189, 231);
+    background: linear-gradient(to right,rgb(151, 196, 226), rgb(22, 61, 87));
+    text-align: center;
+}
+.menu ul li{
+    /*coloca os intens da lista em linha*/
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    font-weight: bold;
+    color:cornflowerblue;
+
+
+}
+BODY{
+    margin: 0PX;
+    padding: 0PX;
+}
+.menuicone{
+    /*faz o icone de menu sumir*/
+    display:none;
+}
+/*configuração especial para o celular*/
+@media(max-width: 1050px){
+    .menuicone{
+        display: block;
+        color: white;
+        text-align: left;
+        font-size: 30px;
+        padding: 10px;
+    }
+    .menu{
+        margin-bottom: 20px;
+    }
+    .menu ul{
+        display: none;
+    }
+    selection{
+       max-width: 80%;
+       font-size: 30px;
+    }
+    td{
+        font-size: 20px;
+    }
+    ul.mostrarmenu{
+        display: inline-block;
+    }
+    .menu ul li{
+        width: 100%;
+        text-align:  center;
+    }
+    }
+    .painel{
+        display: flex;
+        /*direção dos itens*/
+        flex-direction: row;
+        /*quebra de linha automática*/
+        flex-wrap: wrap;
+        width:  100%;
+        /*alinhamento do conteúdo*/
+        justify-content: space-around;
+        text-align: center;
+        footer{
+            background-color: black;
+            height: 100px;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+    }
+
+    
+
+    
+
+
